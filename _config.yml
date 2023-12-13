@@ -1,0 +1,31 @@
+name: 개발일기
+author: Yong Hun
+baseurl: /yong-hun
+description: theme for jekyll
+github: https://github.com/BlitzCoding
+twitter: http://www.twitter.com/
+facebook: http://www.facebook.com
+linkedin: https://www.linkedin.com/in/%EC%9A%A9%ED%9B%88-%EC%9D%B4-a449b825b/
+email: cjswl1357@gmail.com
+location: 42°2'16"N   70°12'47"W
+disqus: diqus-username
+
+##Make sure to edit the above fields, especially for disqus.
+
+
+highlighter: rouge
+markdown: kramdown
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
